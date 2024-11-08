@@ -3,5 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "raymosun <sunraysfs@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prisma:generate": "npx prisma generate --schema=prisma/prisma/schema.prisma"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
 }
